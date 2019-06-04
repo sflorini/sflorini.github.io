@@ -1,3 +1,3 @@
-locations = ["Paris" , "Barcelona" , "Lima" , "Havana"]
-travel = ["I would like to visit " + item for item in locations]
-print(travel)
+places_to_visit = ["Paris" , "Barcelona" , "Lima" , "Havana"]
+for place in places_to_visit:
+    print("I would like to visit " + place + ".")
