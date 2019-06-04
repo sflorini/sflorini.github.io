@@ -1,0 +1,6 @@
+pages = 457
+words = 250
+seg_words = pages * words / 100
+print(seg_words)
+seg_pgs = seg_words / 250
+print(seg_pgs)

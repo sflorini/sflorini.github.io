@@ -1,5 +1,4 @@
-my_info = {
-"first_name": "Sarah" ,
-"last_name": "Florini" ,
-"hometown": "Tempe" ,
-"favorite_food": "food"}
+my_info = {"name": "Sarah Florini" , "street address": "612 Warf Ave." , "city": "Tempe" , "state": " AZ" , "zip": " 12345"}
+print(my_info["name"])
+print(my_info["street address"])
+print(my_info["city"] + my_info["state"] + my_info["zip"]) 
