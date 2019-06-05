@@ -1,0 +1,9 @@
+domain = 'https://walshbr.gov/'
+pages = ['about','blog','pedagogy','projects' 'cv']
+
+urls = []
+
+for thing in pages:
+  urls.append(domain + thing)
+
+print(urls)
